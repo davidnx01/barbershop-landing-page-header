@@ -12,7 +12,7 @@ const BlackNavigation = () => {
             </p>
           </div>
 
-          <div className='flex flex-row items-center gap-10 light_active_color'>
+          <div className='flex flex-row items-center gap-10 light_active_color font-bold'>
             <div className='flex flex-row items-center gap-4'>
               <HiOutlineMapPin color='var(--active)' size={28} />
               <p>9400 PENATIBUS ROAD</p>
