@@ -6,7 +6,14 @@
   font-family: 'Inter', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Karantina:wght@300;400;700&display=swap');
+
+h1,
+h2,
+h3,
+h4{
+  font-family: 'Karantina';
+}
 
 :root {
   --light-active: #F2DAC2;
@@ -43,4 +50,12 @@
 
 .active_bg{
   background: var(--active);
+}
+
+.active_border{
+  border: 1px solid var(--active);
+}
+
+.p_lh{
+  line-height: 2em;
 }
